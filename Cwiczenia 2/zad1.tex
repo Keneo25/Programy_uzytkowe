@@ -1,0 +1,128 @@
+
+\documentclass[a4paper]{article}
+\usepackage[left=3.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{amsmath} 
+\usepackage{amssymb} 
+\usepackage{multirow}
+\begin{document}
+
+\begin{table}[h]
+\centering\caption{Zadanie 1}
+\begin{tabular}{c|c c c}
+\hline
+\hline
+Pacjent & Ból brzucha & Temperatura ciała & Operacja\\
+\hline
+u1 & Mocny & Wysoka & TAK\\
+u2 & Średni & Wysoka & TAK\\
+u3 & Mocny & Średnia & TAK\\
+u4 & Mocny & Niska & TAK\\
+u5 & Średni & Średnia & TAK\\
+u6 & Średni & Średnia & NIE\\
+u7 & Mały & Wysoka & NIE\\
+u8 & Mały & Niska & NIE\\
+u9 & Mocny & Niska & NIE\\
+u10 & Mały & Średnia & NIE\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+
+
+\begin{center}
+
+\begin{table}[h]
+\centering\caption{Tablica prawdy}
+
+\begin{tabular}{|l|l|l|l|}
+\hline
+
+                    Bramki & A & B & ff(a,b)\\
+\hline
+\hline  
+\hline  
+   
+
+\multirow{4}{*}{AND}    
+                       & 0 & 0 & 0 \\ \cline{2-4} 
+                       & 0 & 1 & 0 \\ \cline{2-4} 
+                       & 1 & 0 & 0 \\ \cline{2-4} 
+                       & 1 & 1 & 1 \\ \cline{1-4} 
+                       
+                       
+ \hline 
+ \hline                       
+\multirow{4}{*}{OR}    
+                       & 0 & 0 & 0 \\ \cline{2-4} 
+                       & 0 & 1 & 1 \\ \cline{2-4} 
+                       & 1 & 0 & 1 \\ \cline{2-4} 
+                       & 1 & 1 & 1 \\ \cline{1-4}
+                       
+                       
+ \hline  
+ \hline                      
+\multirow{4}{*}{NAND}    
+                       & 0 & 0 & 1 \\ \cline{2-4} 
+                       & 0 & 1 & 1 \\ \cline{2-4} 
+                       & 1 & 0 & 1 \\ \cline{2-4} 
+                       & 1 & 1 & 0 \\ \cline{1-4}
+                       
+                       
+  \hline
+  \hline                       
+\multirow{4}{*}{NOR}    
+                       & 0 & 0 & 1 \\ \cline{2-4} 
+                       & 0 & 1 & 0 \\ \cline{2-4} 
+                       & 1 & 0 & 0 \\ \cline{2-4} 
+                       & 1 & 1 & 0 \\ \cline{1-4}
+                       
+                       
+ \hline 
+ \hline                       
+\multirow{4}{*}{EXOR}    
+                       & 0 & 0 & 0 \\ \cline{2-4} 
+                       & 0 & 1 & 1 \\ \cline{2-4} 
+                       & 1 & 0 & 1 \\ \cline{2-4} 
+                       & 1 & 1 & 0 \\ \cline{1-4} 
+                       
+                       
+  \hline
+  \hline                       
+\multirow{4}{*}{EXNOR}    
+                       & 0 & 0 & 1 \\ \cline{2-4} 
+                       & 0 & 1 & 0 \\ \cline{2-4} 
+                       & 1 & 0 & 0 \\ \cline{2-4} 
+                       & 1 & 1 & 1 \\ \cline{1-4}                          
+                                                     
+                                              
+  \hline 
+  \hline                                                     
+\multirow{2}{*}{NOT}    
+                       & 0 & - & 1 \\ \cline{2-4} 
+                       & 1 & - & 0 \\ \cline{1-4} 
+                                                  
+                       
+                                                  
+                       
+                       
+                                               
+                       
+                       
+                       
+                       
+                       
+\end{tabular}
+\end{table}
+\end{center}
+
+
+
+
+\end{document}
+
+
